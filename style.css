@@ -1,28 +1,34 @@
 
+<<<<<<< HEAD
 .hot {
     background-color: rgb(74, 131, 255);
+=======
+
+.hot{
+     background-color: rgb(74, 131, 255);
+>>>>>>> 5b0c78e69439c4049ff98adadb59dbbc86c97868
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.imagem {
+.imagem{
     position: absolute;
     height: 50px;
     top: 10px;
     left: 30px;
 }
-
-body {
+body{
     margin: 0%;
 }
 
-.flex {
+.flex{
     display: flex;
 }
+<<<<<<< HEAD
 
 .center {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,3 +44,8 @@ body {
 }
 
 
+=======
+.center{
+text-align: center;
+}
+>>>>>>> 5b0c78e69439c4049ff98adadb59dbbc86c97868
