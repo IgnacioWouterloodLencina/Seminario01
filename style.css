@@ -1,21 +1,28 @@
-
-
-.hot{
-     background-color: rgb(74, 131, 255);
+.hot {
+    background-color: rgb(74, 131, 255);
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.imagem{
+.imagem {
     position: absolute;
     height: 50px;
     top: 10px;
     left: 30px;
 }
-body{
+
+body {
     margin: 0%;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
