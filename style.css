@@ -1,3 +1,4 @@
+
 .hot {
     background-color: rgb(74, 131, 255);
     color: rgb(255, 255, 255);
@@ -26,3 +27,14 @@ body {
 .center {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.opcao{
+    background-color: rgb(255, 211, 131);
+    left: 100px;
+    right: 100px;
+    border: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
