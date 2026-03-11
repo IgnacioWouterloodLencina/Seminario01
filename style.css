@@ -10,3 +10,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.imagem{
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
