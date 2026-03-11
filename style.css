@@ -5,6 +5,11 @@
     border: 30px;
     margin: 30px;
     padding: 20px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ye{
