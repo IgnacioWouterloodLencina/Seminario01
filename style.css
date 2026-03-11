@@ -1,15 +1,9 @@
 
-<<<<<<< HEAD
 .hot {
     background-color: rgb(74, 131, 255);
-=======
-
-.hot{
-     background-color: rgb(74, 131, 255);
->>>>>>> 5b0c78e69439c4049ff98adadb59dbbc86c97868
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,7 +22,6 @@ body{
 .flex{
     display: flex;
 }
-<<<<<<< HEAD
 
 .center {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,8 +37,3 @@ body{
 }
 
 
-=======
-.center{
-text-align: center;
-}
->>>>>>> 5b0c78e69439c4049ff98adadb59dbbc86c97868
