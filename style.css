@@ -19,3 +19,10 @@
 body{
     margin: 0%;
 }
+
+.flex{
+    display: flex;
+}
+.center{
+text-align: center;
+}
