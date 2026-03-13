@@ -28,14 +28,17 @@ body{
 }
 
 .opcao{
-    background-color: rgb(255, 211, 131);
+    background-color: rgb(163, 186, 250);
     justify-content: center;
     align-items: center;
-    left: 100px;
-    right: 100px;
-    border: 30px;
+    left: 400px;
+    right: 400px;
+    border: 100px;
     margin-left: 500px;
     margin-right: 500px;
+    height: 60px;
+    width: 800px;
 }
+
 
 
