@@ -127,11 +127,32 @@ body{
 
 
 
+
+.wrapper{
+    display: table;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.topo{
+    display: table-row;
+    margin: 1px;
+    background-color: blue;
+    color:white;
+}
+
+
+
+
+
 .blue{
     background-color: rgb(59, 72, 248);
     padding: 10px;
     margin: 20px;
-    display: table;
+    display:table;
+    table-layout: auto;
+
 }
 
 .red{
@@ -141,3 +162,11 @@ body{
 }
 
 
+.box{
+    display: table-cell;
+}
+
+.box-lado{
+    display: table-cell;
+    width: 50px;
+}
