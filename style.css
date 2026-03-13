@@ -36,13 +36,20 @@ body{
     border: 100px;
     margin-left: 500px;
     margin-right: 500px;
+    width: 920px;
 }
 .opcao2{
-    background-color: rgb(245, 233, 129);
+    background-color: rgb(255, 252, 227);
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 920px;
 }
 
+.imagi {
+  justify-content: center;
+    align-items: center;
+  width: 920px;
+   
 
+}

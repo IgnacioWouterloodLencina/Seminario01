@@ -20,35 +20,91 @@
     <div>
 
 
-    <div class="opcao">
-        <details>
-        <summary> DISPLAY: BLOCK </summary>
-        <div class="opcao2">
-            <p>Oia</p>
-        </div>  
-    </details>
-    </div>
-     <div class="opcao">
-        <details>
-        <summary> DISPLAY: BLOCK </summary>
-        <div class="opcao2">
-            <p>Oia</p>
-        </div>  
-    </details>
-    </div>
-     <div class="opcao">
-        <details>
-        <summary> DISPLAY: BLOCK </summary>
-        <div class="opcao2">
-            <p>Oia</p>
-        </div>  
-    </details>
-    </div>
+        <div class="opcao">
+            <details>
+                <summary> POSITION STATIC </summary>
+                <div class="opcao2">
+                    <p>1.1 Position Static
+                        O position: static é o valor padrão do CSS para todos os elementos HTML. Ele mantém o elemento
+                        no fluxo normal do documento, seguindo a ordem do código (empilhado) e ignora propriedades de
+                        posicionamento (top, right, bottom, left, z-index). É o comportamento "natural" sem
+                        posicionamento especial.
+                       
+                    </p>
+                   
+                </div>
+                  <img class="imagi" src="assets/static.webp" alt="1">
+            </details>
+        </div>
+        <div class="opcao">
+            <details>
+                <summary> POSITION RELATIVE </summary>
+                <div class="opcao2">
+                    <p>1.2 Position relative
+                        A primeira opção de posicionamento para um elemento é a relative. Como o nome sugere, ela
+                        especifica uma posição relativa do elemento em relação a algo: o elemento pai.A posição é
+                        definida através de quatro outras propriedades: top, bottom, left e right, que indicam a
+                        distância com relação ao topo, base, esquerda e direita, respectivamente, tomando como
+                        referência o posicionamento do elemento pai.
+                    </p>
+                </div>
+                <img class="imagi" src="assets/relative.png" alt="1">
+            </details>
+        </div>
+
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION ABSOLUTE </summary>
+                <div class="opcao2">
+                    <p>1.3 Position absolute
+                        A segunda opção de posicionamento é a “absolute”. Ela faz com que o elemento “saia” da
+                        hierarquia estabelecida pelo HTML – na prática, ele é filho da página e não de um elemento
+                        qualquer no HTML definido. Assim, é possível posicionarmos esse elemento em qualquer lugar da
+                        página, independentemente do que temos lá. Isso pode ser útil em casos que precisamos posicionar
+                        um alerta em nossa página, por exemplo, e não queremos “quebrar” o layout.
+
+                    </p>
+                </div>
+            </details>
+        </div>
+
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION FIXED </summary>
+                <div class="opcao2">
+                    <p>2.4 Position fixed
+                        Por fim, temos a opção “fixed”, que funciona de forma diferente em relação às demais. Embora
+                        seja parecida com o posicionamento absoluto, com “fixed” o elemento “responde”, em termos de
+                        layout, ao navegador. Isso significa que, mesmo que naveguemos na página para cima e para baixo,
+                        o elemento ficará fixo na mesma posição sempre.
+
+                    </p>
+                </div>
+            </details>
+        </div>
+
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION STICKY </summary>
+                <div class="opcao2">
+                    <p>2.5 Position sticky
+                        Position: sticky é uma propriedade CSS que permite a um elemento alternar entre relative e
+                        “fixed” com base na rolagem da página. Ele age como um elemento normal até atingir uma posição
+                        de gatilho definida (como top: 0), tornando-se fixo dentro do seu contêiner pai enquanto o
+                        usuário continua a rolar
+                    </p>
+                </div>
+            </details>
+        </div>
+
 
     </div>
 
-     
-    
+
+
 </body>
 
 </html>
