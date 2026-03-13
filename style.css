@@ -39,7 +39,7 @@ body{
     width: 920px;
 }
 .opcao2{
-    background-color: rgb(255, 252, 227);
+    background-color: rgb(255, 252, 222);
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -53,3 +53,62 @@ body{
    
 
 }
+.yo{
+    background-color: rgb(88, 172, 250);
+    height: 70px;
+    width: 80px;
+}
+
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.inline-grid{
+    display: inline-grid;
+}
+
+.flow-root{
+    display: flow-root;
+}
+
+.table{
+    display: table;
+}
+
+
+
+
+.blue{
+    background-color: rgb(59, 72, 248);
+    padding: 10px;
+    margin: 20px;
+    display: table;
+}
+
+.red{
+    background-color: rgb(255, 56, 56);
+    padding: 10px;
+    color: white;
+}
+
