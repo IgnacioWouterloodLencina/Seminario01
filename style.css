@@ -44,15 +44,43 @@ body{
     align-items: center;
     height: 100px;
     width: 920px;
+    
 }
+
+.opcao3{
+    background-color:  rgb(163, 186, 250);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 920px;
+    left: 400px;
+    right: 400px;
+    border: 100px;
+        margin-left: 500px;
+    margin-right: 500px;
+}
+
 
 .imagi {
   justify-content: center;
     align-items: center;
   width: 920px;
-   
+}
+
+
+.caixa{
 
 }
+
+
+
+
+
+
+
+   
+
+
 .yo{
     background-color: rgb(88, 172, 250);
     height: 70px;
@@ -111,4 +139,5 @@ body{
     padding: 10px;
     color: white;
 }
+
 
