@@ -1,3 +1,4 @@
+Ignacio Wouterlood Lencina, Agora
 <html lang="en">
 
 <head>
@@ -136,67 +137,124 @@
             </h1>
 
 
-            <p>
-Este texto está antes do grid
-</p>
 
-<div class="container">
-
-            <div class="flex">
-                <div class="blue">
-                    <div class="red">
-                        teste
-                    </div>
-                    <div class="red">
-                        teste
-                    </div>
-                    <div class="red">
-                        teste
-                    </div>
-                </div>
-            </div>
+            
 
 
             <h1 class="centro">INLINE</h1>
 
+            <div>
             <div class="caixa1">CAIXA 1</div>
             <div class="flex">
                 <div class="caixa-inline">INLINE</div>
                 <div class="caixa2">CAIXA 2</div>
+             </div>
+             <p>O display:inline funciona basicamente como um paragrafo, ele corta a linha para baixo quando não á mais espaço para os lados, não tendo como manipular o tamanho da inline manualmente</p>
+             </div>
 
-            </div>
 
             <h1 class="centro">FLEX</h1>
-
+             <div>
             <div class="flex">
                 <div class="caixa1">CAIXA 1</div>
                 <div class="caixa2">flex</div>
             </div>
+            <p>O display flex deixa o conteudo da div que foi marcada como flex um do lado do outro</p>
+            </div>
 
             <h1 class="centro">INLINE-FLEX</h1>
+            <div>
             <div class="caixa-inlineflex">
                 <span>1</span>
                 <span>2</span>
                 <span>3</span>
             </div>
+            <p>o inline-flex ocupa apenas o expaço nescessario para existir, e quebra a linha para baixo ou para cima caso vá passar dos limites da página</p>
+            </div>
 
             <h1 class="centro">GRID</h1>
+            <div>
             <div class="caixa-grid">
                 <div>1</div>
                 <div>2</div>
                 <div>3</div>
                 <div>4</div>
             </div>
+            <p>Basicamente o CSS Grid divide a tela em uma grade de linhas e colunas, oferecendo um conjunto de propriedades para manipular elementos das formas mais variáveis possíveis.
+</p>
+            </div>
 
             <h1 class="centro">INLINE-GRID</h1>
+            <div>
             <div class="caixa-inlinegrid">
                 <div>1</div>
                 <div>2</div>
                 <div>3</div>
                 <div>4</div>
             </div>
+            <p>Display: inline-grid no CSS cria um contêiner de grade (grid) que se comporta como um elemento inline na página. Diferente do display: grid (que é um bloco e ocupa toda a largura), o inline-grid permite que outros elementos fiquem ao seu lado, ocupando apenas o espaço necessário para o conteúdo.</p>
+            </div>
 
             <div class="outra">OUTRA</div>
+            
+
+
+            <h1 class="centro">BLOCK-FLOW</h1>
+            <div>
+            <div class="caixa-flow">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
+            </div>
+            <p>block flow faz a div ocupar todo o espaço da linha, obrigando qualquer div a passar para a proxima linha </p>
+            </div>
+
+
+            <h1 class="centro">BLOCK-GRID</h1>
+            <div>
+            <div class="caixa-blockgrid">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <p>ele força uma nova linha na tela, empurrando qualquer conteudo antes dele para cima e qualquer conteudo depois dele para baixo</p>
+            </div>
+
+            <h1 class="centro">BLOCK FLOW ROOT</h1>
+            <div>
+            <div class="caixa-flowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>Com o block-flow-root você impede que elementos muito grandes saiam/vazem da div</p>
+            </div>
+
+            <h1 class="centro">INLINE FLOW</h1>
+            <div>
+            <div class="caixa-inlineflow">INLINE FLOW</div>
+            <div class="outra">OUTRA</div>
+            <p>faz basicamente a mesma função do inline de quebrar a linha para baixo quando paça do limite da página, mas diferente do inline o inline-flow faz o código entender esta quebra como uma nova linha</p>
+            </div>
+
+
+
+            <h1 class="centro">INLINE FLOW ROOT</h1>
+            <div>
+            <div class="caixa-inlineflowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>Ao controlar o fluxo do texto, usar a propriedade CSS `display: inline` fará com que o texto dentro do elemento seja quebrado normalmente.Já a propriedade `display: inline-block` quebrará o elemento para evitar que o texto ultrapasse os limites do elemento pai.</p>
+            </div>
+
+            <div class="outra">OUTRA</div>
+
 
 
 
