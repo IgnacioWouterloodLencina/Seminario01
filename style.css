@@ -477,3 +477,14 @@ body{
   height: 150px;
   background-color: blue;
 }
+
+
+.item2{
+  display: block;
+ 
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 10px;
+}
