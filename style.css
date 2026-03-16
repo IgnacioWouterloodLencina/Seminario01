@@ -402,3 +402,78 @@ body{
   border: 2px solid black;
   padding: 10px;
 }
+
+
+ body {
+   
+    margin: 0px;
+    padding: 0px;
+    height: 180vh;
+    width: 240vh;
+}
+
+  .pai {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: static;
+    top: 20px;
+}
+  
+  .filho {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+  }
+
+  .pai2 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+    top: 20px;
+}
+
+  .filho2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+
+
+.pai3 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin-top: 250px;
+}
+
+.filho3 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+
+.pai4 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: 200px 0 0 200px;
+  position: sticky;
+  top: 0;
+  left:0;
+}
+
+.filho4 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
