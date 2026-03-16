@@ -310,3 +310,95 @@ body{
   border: 2px solid black;
   padding: 10px;
 }
+
+.caixa-flow{
+  display: flow-root;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.item{
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.caixa-blockgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: lightgreen;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-blockgrid div{
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.caixa-flowroot{
+  display: flow-root;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+}
+
+.item{
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 10px;
+}
+
+.caixa-inlineflow{
+  display: inline;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-inlineflowroot{
+  display: inline-block; /* equivalente prático ao inline flow-root */
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.item{
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
