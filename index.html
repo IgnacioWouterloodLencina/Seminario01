@@ -1,3 +1,4 @@
+Ignacio Wouterlood Lencina, Agora
 <html lang="en">
 
 <head>
@@ -24,32 +25,309 @@
 
     <div>
 
+        <div class="opcao3">
+            <h1>
+                POSITIONS ⬇️
+            </h1>
+        </div>
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION STATIC </summary>
+                <div class="opcao2">
+                    <p>1.1 Position Static
+                        O position: static é o valor padrão do CSS para todos os elementos HTML. Ele mantém o elemento
+                        no fluxo normal do documento, seguindo a ordem do código (empilhado) e ignora propriedades de
+                        posicionamento (top, right, bottom, left, z-index). É o comportamento "natural" sem
+                        posicionamento especial.
+                    </p>
+
+
+                </div>
+                <img class="imagi" src="assets/static.webp" alt="1">
+
+
+
+                <div class="caixa-static">STATIC</div>
+
+
+
+            </details>
+        </div>
+        <div class="opcao">
+            <details>
+                <summary> POSITION RELATIVE </summary>
+                <div class="opcao2">
+                    <p>1.2 Position relative
+                        A primeira opção de posicionamento para um elemento é a relative. Como o nome sugere, ela
+                        especifica uma posição relativa do elemento em relação a algo: o elemento pai.A posição é
+                        definida através de quatro outras propriedades: top, bottom, left e right, que indicam a
+                        distância com relação ao topo, base, esquerda e direita, respectivamente, tomando como
+                        referência o posicionamento do elemento pai.
+                    </p>
+                </div>
+                <img class="imagi" src="assets/relative.png" alt="1">
+
+                <div class="caixa-relative">RELATIVE</div>
+
+            </details>
+        </div>
+
 
         <div class="opcao">
             <details>
-                <summary> DISPLAY: BLOCK </summary>
+                <summary> POSITION ABSOLUTE </summary>
                 <div class="opcao2">
-                    <p>Oia</p>
+                    <p>1.3 Position absolute
+                        A segunda opção de posicionamento é a “absolute”. Ela faz com que o elemento “saia” da
+                        hierarquia estabelecida pelo HTML – na prática, ele é filho da página e não de um elemento
+                        qualquer no HTML definido. Assim, é possível posicionarmos esse elemento em qualquer lugar da
+                        página, independentemente do que temos lá. Isso pode ser útil em casos que precisamos posicionar
+                        um alerta em nossa página, por exemplo, e não queremos “quebrar” o layout.
+
+                    </p>
                 </div>
-            </details>
-        </div>
-        <div class="opcao">
-            <details>
-                <summary> DISPLAY: BLOCK </summary>
-                <div class="opcao2">
-                    <p>Oia</p>
+                <img class="imagi" src="assets/Absolute.png" alt="1">
+
+                <div class="container-absolute">
+                    <div class="caixa-absolute">ABSOLUTE</div>
                 </div>
-            </details>
-        </div>
-        <div class="opcao">
-            <details>
-                <summary> DISPLAY: BLOCK </summary>
-                <div class="opcao2">
-                    <p>Oia</p>
-                </div>
+
             </details>
         </div>
 
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION FIXED </summary>
+                <div class="opcao2">
+                    <p>2.4 Position fixed
+                        Por fim, temos a opção “fixed”, que funciona de forma diferente em relação às demais. Embora
+                        seja parecida com o posicionamento absoluto, com “fixed” o elemento “responde”, em termos de
+                        layout, ao navegador. Isso significa que, mesmo que naveguemos na página para cima e para baixo,
+                        o elemento ficará fixo na mesma posição sempre.
+
+                    </p>
+                </div>
+                <img class="imagi" src="assets/fixed.png" alt="1">
+
+                <div class="caixa-fixed">FIXED</div>
+
+            </details>
+        </div>
+
+
+        <div class="opcao">
+            <details>
+                <summary> POSITION STICKY </summary>
+                <div class="opcao2">
+                    <p>2.5 Position sticky
+                        Position: sticky é uma propriedade CSS que permite a um elemento alternar entre relative e
+                        “fixed” com base na rolagem da página. Ele age como um elemento normal até atingir uma posição
+                        de gatilho definida (como top: 0), tornando-se fixo dentro do seu contêiner pai enquanto o
+                        usuário continua a rolar
+                    </p>
+                </div>
+                <img class="imagi" src="assets/static.webp" alt="1">
+
+                <div class="caixa-sticky">STICKY</div>
+
+            </details>
+        </div>
+
+
+        <div class="opcao3">
+            <h1>
+                DISPLAYS ⬇️
+            </h1>
+
+
+
+            
+
+
+            <h1 class="centro">INLINE</h1>
+
+            <div>
+            <div class="caixa1">CAIXA 1</div>
+            <div class="flex">
+                <div class="caixa-inline">INLINE</div>
+                <div class="caixa2">CAIXA 2</div>
+             </div>
+             <p>O display:inline funciona basicamente como um paragrafo, ele corta a linha para baixo quando não á mais espaço para os lados, não tendo como manipular o tamanho da inline manualmente</p>
+             </div>
+
+
+            <h1 class="centro">FLEX</h1>
+             <div>
+            <div class="flex">
+                <div class="caixa1">CAIXA 1</div>
+                <div class="caixa2">flex</div>
+            </div>
+            <p>O display flex no CSS é uma maneira de organizar elementos em uma página da web. Imagine uma caixa grande chamada "contêiner", onde você pode colocar várias caixinhas menores. Com o display flex, você pode arrumar essas caixinhas de forma organizada, deixando elas se ajustarem sozinhas dentro do contêiner. Isso é importante porque ajuda a criar páginas que ficam bonitas e funcionam bem em diferentes tamanhos de tela, como em celulares e computadores</p>
+            </div>
+
+            <h1 class="centro">INLINE-FLEX</h1>
+            <div>
+            <div class="caixa-inlineflex">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+            </div>
+            <p>Quando usamos display: inline-flex, o elemento pai se comporta como um container flexível, mas sua largura é ajustada automaticamente de acordo com o conteúdo dentro dele. Isso significa que display: inline-flex é mais adequado para elementos que precisam se ajustar ao tamanho do conteúdo, como botões ou blocos de texto em linha.</p>
+            </div>
+
+            <h1 class="centro">GRID</h1>
+            <div>
+            <div class="caixa-grid">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <p>Basicamente o CSS Grid divide a tela em uma grade de linhas e colunas, oferecendo um conjunto de propriedades para manipular elementos das formas mais variáveis possíveis.</p>
+            </div>
+
+            <h1 class="centro">INLINE-GRID</h1>
+            <div>
+            <div class="caixa-inlinegrid">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <p>Display: inline-grid no CSS cria um contêiner de grade (grid) que se comporta como um elemento inline na página. Diferente do display: grid (que é um bloco e ocupa toda a largura), o inline-grid permite que outros elementos fiquem ao seu lado, ocupando apenas o espaço necessário para o conteúdo.</p>
+            </div>
+
+            <div class="outra">OUTRA</div>
+            
+
+
+            <h1 class="centro">BLOCK-FLOW</h1>
+            <div>
+            <div class="caixa-flow">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
+            </div>
+            <p>O termo display: block-flow faz parte da nova sintaxe "multi-palavras" da propriedade display no CSS Moderno (definida no CSS Display Module Level 3). Antigamente, as palavras-chave eram simples (como block, inline, flex). Agora, elas são divididas em duas partes: o tipo de exibição externa (como ele se comporta em relação aos vizinhos) e o tipo de exibição interna (como ele organiza os filhos)</p>
+            </div>
+
+
+            <h1 class="centro">BLOCK-GRID</h1>
+            <div>
+            <div class="caixa-blockgrid">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <p>Display: block-grid é um valor experimental de CSS ligado ao CSS Grid Layout. Ele foi proposto para permitir que um elemento funcione como um bloco normal, mas herde a grade (grid) do elemento pai. Em outras palavras, ele serviria para reutilizar as mesmas colunas/linhas da grid do pai sem precisar redefinir tudo.</p>
+            </div>
+
+            <h1 class="centro">BLOCK FLOW ROOT</h1>
+            <div>
+            <div class="caixa-flowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>Com o block-flow-root você impede que elementos muito grandes saiam/vazem da div</p>
+            </div>
+
+            <h1 class="centro">INLINE FLOW</h1>
+            <div>
+            <div class="caixa-inlineflow">INLINE FLOW</div>
+            <div class="outra">OUTRA</div>
+            <p>faz basicamente a mesma função do inline de quebrar a linha para baixo quando paça do limite da página, mas diferente do inline o inline-flow faz o código entender esta quebra como uma nova linha</p>
+            </div>
+
+
+
+            <h1 class="centro">INLINE FLOW ROOT</h1>
+            <div>
+            <div class="caixa-inlineflowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>display: block flow-root é um valor moderno do CSS que combina dois comportamentos de layout: block → o elemento se comporta como um bloco (ocupa toda a largura disponível e quebra linha). flow-root → o elemento cria um novo Block Formatting Context (BFC).</p>
+            </div>
+
+            <div class="outra">OUTRA</div>
+
+
+            <h1 class="centro">BLOCK-FLOW</h1>
+            <div>
+            <div class="caixa-flow">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
+                </div>
+                <p>O termo display: block-flow faz parte da nova sintaxe "multi-palavras" da propriedade display no CSS Moderno (definida no CSS Display Module Level 3). Antigamente, as palavras-chave eram simples (como block, inline, flex). Agora, elas são divididas em duas partes: o tipo de exibição externa (como ele se comporta em relação aos vizinhos) e o tipo de exibição interna (como ele organiza os filhos)</p>
+                </div>
+
+            <h1 class="centro">BLOCK-GRID</h1>
+            <div>
+            <div class="caixa-blockgrid">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <p>Display: block-grid é um valor experimental de CSS ligado ao CSS Grid Layout. Ele foi proposto para permitir que um elemento funcione como um bloco normal, mas herde a grade (grid) do elemento pai. Em outras palavras, ele serviria para reutilizar as mesmas colunas/linhas da grid do pai sem precisar redefinir tudo</p>
+            </div>
+
+            <h1 class="centro">BLOCK FLOW ROOT</h1>
+            <div>
+            <div class="caixa-flowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>display: block flow-root é um valor moderno do CSS que combina dois comportamentos de layout: block → o elemento se comporta como um bloco (ocupa toda a largura disponível e quebra linha). flow-root → o elemento cria um novo Block Formatting Context (BFC).</p>
+            </div>
+
+            <h1 class="centro">INLINE FLOW</h1>
+            <div>
+            <div class="caixa-inlineflow">INLINE FLOW</div>
+            <div class="outra">OUTRA</div>
+            <p>A propriedade display: inline no CSS faz com que um elemento flua com o texto, ocupando apenas a largura necessária e alinhando-se horizontalmente, sem iniciar uma nova linha.</p>
+            </div>
+
+
+            <h1 class="centro">INLINE FLOW ROOT</h1>
+            <div>
+            <div class="caixa-inlineflowroot">
+                <div class="item">1</div>
+                <div class="item">2</div>
+            </div>
+            <p>Ao controlar o fluxo do texto, usar a propriedade CSS `display: inline` fará com que o texto dentro do elemento seja quebrado normalmente.Já a propriedade `display: inline-block` quebrará o elemento para evitar que o texto ultrapasse os limites do elemento pai.</p>
+            </div>
+
+            <div class="outra">OUTRA</div>
+
+
+
+
+            <h1 class="centro">TABLE</h1>
+            <div class="wrapper">
+                <div class="header">TOPO</div>
+                <div class="main">
+                    <div class="box sidebar">Barra lateral</div>
+                    <div class="box content">Conteúdo principal</div>
+                    <div class="box sidebar">Barra lateral</div>
+                </div>
+                <div class="footer">RODAPÉ</div>
+            </div>
+        </div>
     </div>
 
 

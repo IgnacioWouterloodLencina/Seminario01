@@ -36,13 +36,369 @@ body{
     border: 100px;
     margin-left: 500px;
     margin-right: 500px;
+    width: 920px;
 }
 .opcao2{
-    background-color: rgb(245, 233, 129);
+    background-color: rgb(255, 252, 222);
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 920px;
+    
+}
+
+.opcao3{
+    background-color:  rgb(163, 186, 250);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 920px;
+    left: 400px;
+    right: 400px;
+    border: 100px;
+        margin-left: 500px;
+    margin-right: 500px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.imagi {
+  justify-content: center;
+    align-items: center;
+  width: 920px;
 }
 
 
+.caixa-static{
+  width: 120px;
+  height: 120px;
+  background-color: lightblue;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 120px;
+  position: static;
+}
+
+
+.caixa-relative{
+  width: 120px;
+  height: 120px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 120px;
+
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.container-absolute{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.caixa-absolute{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 100px;
+
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+
+.caixa-fixed{
+  width: 120px;
+  height: 120px;
+  background: red;
+  color: white;
+  text-align: center;
+  line-height: 120px;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+  
+.caixa-sticky{
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  color: white;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 120px;
+
+  position: sticky;
+  top: 0;
+}
+
+
+.yo{
+    background-color: rgb(88, 172, 250);
+    height: 70px;
+    width: 80px;
+}
+
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.inline-grid{
+    display: inline-grid;
+}
+
+.flow-root{
+    display: flow-root;
+}
+
+
+
+
+
+
+
+.blue{
+    background-color: rgb(59, 72, 248);
+    padding: 10px;
+    margin: 20px;
+}
+
+.red{
+    background-color: rgb(255, 56, 56);
+    padding: 10px;
+    color: white;
+}
+
+
+.wrapper {
+  height: 600PX;
+  display: table;
+  width: 920PX;
+  text-align: center;
+}
+.header {
+  display: table-row;
+  height: 1px;
+  background: #ffcd39;
+}
+.main {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.box {
+  display: table-cell;
+}
+.sidebar {
+  width: 100px;
+  background: #c74227;
+}
+.footer {
+  display: table-row;
+  height: 1px;
+  background: #127883;
+  color: #faf3bc;
+}
+
+.caixa1{
+  background: lightgreen;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-inline{
+  display: inline;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa2{
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+
+.caixa-inlineflex{
+  display: inline-flex;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+  gap: 10px;
+}
+
+.caixa-inlineflex span{
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-grid div{
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.caixa-inlinegrid{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-inlinegrid div{
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-flow{
+  display: flow-root;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.item{
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.caixa-blockgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: lightgreen;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-blockgrid div{
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.caixa-flowroot{
+  display: flow-root;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+}
+
+.item{
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 10px;
+}
+
+.caixa-inlineflow{
+  display: inline;
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.caixa-inlineflowroot{
+  display: inline-block; /* equivalente prático ao inline flow-root */
+  background: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.item{
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+
+.outra{
+  display: inline;
+  background: orange;
+  border: 2px solid black;
+  padding: 10px;
+}
