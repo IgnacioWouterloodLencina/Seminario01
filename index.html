@@ -136,24 +136,34 @@
             </h1>
 
 
+            <p>
+Este texto está antes do grid
+</p>
 
-            <h1 class="centro">BLOCK</h1>
+<div class="container">
 
-          <div class="flex">
-        <div class="blue">
-        <div class="red">
-            teste
-        </div>
-        <div class="red">
-            teste
-        </div>
-        <div class="red">
-            teste
-        </div>
+<div class="grid-inline">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+</div>
+
+<span>Texto ao lado do grid</span>
+
+</div>
+
+
+            <h1 class="centro">FLOW-ROOT</h1>
+            <div class="container-flow">
+            <div class="caixa"></div>
+            <p class="texto">
+             Aqui usamos <strong>display: flow-root</strong>.
+             O container reconhece o elemento com float e se ajusta corretamente.
+            </p>
             </div>
-          </div>  
 
-          
+
 
             <h1 class="centro">TABLE</h1>
             <div class="wrapper">

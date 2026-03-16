@@ -230,3 +230,43 @@ body{
   background: #127883;
   color: #faf3bc;
 }
+
+.container-normal{
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+.container-flow{
+    border: 2px solid green;
+    display: flow-root;
+}
+
+.caixa{
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: lightblue;
+    margin: 10px;
+}
+
+.texto{
+    margin: 10px;
+}
+
+.container{
+    border: 2px solid black;
+}
+
+.grid-inline{
+    display: inline-grid;
+    grid-template-columns: 80px 80px;
+    gap: 5px;
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+.item{
+    background: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
