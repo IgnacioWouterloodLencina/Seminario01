@@ -240,14 +240,14 @@
                 <div class="item">1</div>
                 <div class="item">2</div>
             </div>
-            <p>Com o block-flow-root você impede que elementos muito grandes saiam/vazem da div</p>
+            <p>display: block flow-root é um valor moderno do CSS que combina dois comportamentos de layout: block → o elemento se comporta como um bloco (ocupa toda a largura disponível e quebra linha). flow-root → o elemento cria um novo Block Formatting Context (BFC).</p>
             </div>
 
             <h1 class="centro">INLINE FLOW</h1>
             <div>
             <div class="caixa-inlineflow">INLINE FLOW</div>
             <div class="outra">OUTRA</div>
-            <p>faz basicamente a mesma função do inline de quebrar a linha para baixo quando paça do limite da página, mas diferente do inline o inline-flow faz o código entender esta quebra como uma nova linha</p>
+            <p>É uma especificação moderna que define o comportamento interno e externo de um elemento: ele faz com que o elemento se comporte como inline em relação aos vizinhos, mas estabeleça um contexto de formatação de bloco internamente.</p>
             </div>
 
 
@@ -258,17 +258,14 @@
                 <div class="item">1</div>
                 <div class="item">2</div>
             </div>
-            <p>display: block flow-root é um valor moderno do CSS que combina dois comportamentos de layout: block → o elemento se comporta como um bloco (ocupa toda a largura disponível e quebra linha). flow-root → o elemento cria um novo Block Formatting Context (BFC).</p>
+            <p>Ao controlar o fluxo do texto, usar a propriedade CSS `display: inline` fará com que o texto dentro do elemento seja quebrado normalmente.Já a propriedade `display: inline-block` quebrará o elemento para evitar que o texto ultrapasse os limites do elemento pai.</p>
             </div>
 
             <div class="outra">OUTRA</div>
 
 
-            
-
-
-
             <h1 class="centro">TABLE</h1>
+            <div>
             <div class="wrapper">
                 <div class="header">TOPO</div>
                 <div class="main">
@@ -277,6 +274,8 @@
                     <div class="box sidebar">Barra lateral</div>
                 </div>
                 <div class="footer">RODAPÉ</div>
+            </div>
+            <p></p>
             </div>
         </div>
     </div>
