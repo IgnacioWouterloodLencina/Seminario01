@@ -155,9 +155,6 @@ body{
     background-color: rgb(59, 72, 248);
     padding: 10px;
     margin: 20px;
-    display:table;
-    table-layout: auto;
-
 }
 
 .red{
