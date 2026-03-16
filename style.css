@@ -60,6 +60,9 @@ body{
     margin-right: 500px;
 }
 
+.centro{
+    text-align: center;
+}
 
 .imagi {
   justify-content: center;
@@ -120,27 +123,7 @@ body{
     display: flow-root;
 }
 
-.table{
-    display: table;
-}
 
-
-
-
-
-.wrapper{
-    display: table;
-    height: 400px;
-    width: 400px;
-    text-align: center;
-}
-
-.topo{
-    display: table-row;
-    margin: 1px;
-    background-color: blue;
-    color:white;
-}
 
 
 
@@ -162,11 +145,32 @@ body{
 }
 
 
-.box{
-    display: table-cell;
+.wrapper {
+  height: 600PX;
+  display: table;
+  width: 920PX;
+  text-align: center;
 }
-
-.box-lado{
-    display: table-cell;
-    width: 50px;
+.header {
+  display: table-row;
+  height: 1px;
+  background: #ffcd39;
+}
+.main {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.box {
+  display: table-cell;
+}
+.sidebar {
+  width: 100px;
+  background: #c74227;
+}
+.footer {
+  display: table-row;
+  height: 1px;
+  background: #127883;
+  color: #faf3bc;
 }
